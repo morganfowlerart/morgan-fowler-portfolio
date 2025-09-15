@@ -1,0 +1,8 @@
+title: My Portfolio
+name: Morgan Fowler
+email: thefontsnob@outlook.com
+
+collections:
+  design: 
+    output: true
+    permalink: /:collection/:path/
