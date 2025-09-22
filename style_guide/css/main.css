@@ -1,2 +1,176 @@
 /* CSS Document */
 
+@font-face {
+	font-family: 'TAYbigbird';
+	src: url("../fonts/TAYBigBird.otf") format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.custom-font {
+  font-family: 'TAYbigbird', sans-serif;
+}
+
+.work-sans {
+	font-family: 'Work Sans', sans-serif;
+}
+	
+	
+body {
+	font-family: 'TAYbigbird', 'WorkSans', sans-serif;
+}
+
+h1 {
+	font-family: 'WorkSans', sans-serif;
+}
+
+header{
+	width: 350px;
+	margin: 0 auto;
+}
+
+.column{
+		width: 233px; 
+		height: 152px;
+		align-content: center;
+			
+}
+
+.main_logo{
+	display: flex;
+      justify-content: center;
+      align-items: center;
+	padding: 50px 50px 30px 50px;
+}
+
+body{
+	background-color: #FFFFF4;
+}
+
+
+.logorow {
+  		display: flex;
+      	justify-content: space-between;
+		padding: 10px 90px 10px 150px;
+}
+
+.logo_des {
+  	display: flex;
+      justify-content: space-between;
+      align-items: center;
+	padding: 10px 250px 10px 250px;
+}
+
+
+.imagery {display: flex;
+      justify-content: center;
+      align-items: center;
+	padding: 30px 50px 10px 50px;
+	
+}
+
+.color {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+	padding: 50px 130px 50px 130px;
+		
+    }
+
+
+    .color_pri{
+      width: 150px;        
+      height: 150px;       
+      border-radius: 50%;  
+	background-color:#D84E2F; 
+      display: inline-block; 
+    }
+
+
+    .color_sec{
+      width: 150px;        
+      height: 150px;       
+      border-radius: 50%;  
+	background-color:#C6D1F1; 
+      display: inline-block; 
+    }
+
+ .color_tri{
+      width: 150px;        
+      height: 150px;       
+      border-radius: 50%;  
+	background-color:#ACA756; 
+      display: inline-block; 
+    }
+
+.color_accent{
+	   width: 150px;        
+      height: 150px;       
+      border-radius: 50%;  
+	background-color:#537BA5; 
+      display: inline-block; 
+}
+
+
+.hex {
+	 display: flex;
+      justify-content: space-between;
+      align-items: center;
+		padding: 30px 100px 20px 100px; 
+}
+
+
+
+.typeface {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+	padding: 50px 100px 20px 100px;
+    }
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+}
+
+.thin {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 100;
+}
+
+.regular {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+}
+
+.bold {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 800;
+}
+
+.textalign {
+	align-content: center;
+	
+}
+
+.img1, .img2, .img3, .img4{
+		display: flex;
+      justify-content: space-between;
+      align-items: center;
+	padding: 50px 50px 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
